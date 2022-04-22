@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-tab1',
@@ -74,6 +74,33 @@ export class Tab1Page {
   
   ];
 
+  @Input() Nombre: string = "";
+  @Input() Apellido: string = "";
+  @Input() Matricula: string = "";
 
+  agregarAlumno(): void {
+    var nuevoAlumno: any = {
+      "Nombre": this.Nombre,
+      "Apellido": this.Apellido,
+      "Matricula": this.Matricula
+    }
+
+    this.alumnos.push(nuevoAlumno); 
+
+   this.alumnos.sort(function(a, b) {
+    var nameA = a.Nombre.toUpperCase(); 
+    var nameB = b.Nombre.toUpperCase(); 
+    if (nameA < nameB) {
+      return -1;
+    }
+    if (nameA > nameB) {
+      return 1;
+    }
+  
+    return 0;
+  });
+
+    console.log(this.alumnos); 
+  }
 
 }
