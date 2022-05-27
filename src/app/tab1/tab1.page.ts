@@ -13,63 +13,63 @@ export class Tab1Page {
 
     {"Nombre": "Abraham",
      "Apellido": "Ramirez",
-     "Matricula": "ABC123"
+     "Matricula": "4582358"
     },
     {"Nombre": "Aylin",
      "Apellido": "Demetci",
-     "Matricula": "ABC123"
+     "Matricula": "5486325"
     },
     {"Nombre": "Brian",
      "Apellido": "Esquivel",
-     "Matricula": "ABC123"
+     "Matricula": "4856987"
     },
     {"Nombre": "Diego",
      "Apellido": "Davila",
-     "Matricula": "ABC123"
+     "Matricula": "5846856"
     },
     {"Nombre": "Diego",
      "Apellido": "Jasso",
-     "Matricula": "ABC123"
+     "Matricula": "7485932"
     },
     {"Nombre": "Julio",
      "Apellido": "Manuel",
-     "Matricula": "ABC123"
+     "Matricula": "4210565"
     },
     {"Nombre": "Luis",
      "Apellido": "Villanueva",
-     "Matricula": "ABC123"
+     "Matricula": "7485315"
     },
     {"Nombre": "Luis",
      "Apellido": "Tamez",
-     "Matricula": "ABC123"
+     "Matricula": "4541265"
     },
     {"Nombre": "Manuel",
      "Apellido": "Juarez",
-     "Matricula": "ABC123"
+     "Matricula": "8541235"
     },
     {"Nombre": "Rogel",
      "Apellido": "Guel",
-     "Matricula": "ABC123"
+     "Matricula": "8541239"
     },
     {"Nombre": "Sergio",
      "Apellido": "Gutierrez",
-     "Matricula": "ABC123"
+     "Matricula": "9842658"
     },
     {"Nombre": "Omar",
      "Apellido": "Garza",
-     "Matricula": "ABC123"
+     "Matricula": "1950344"
     },
     {"Nombre": "Juan",
      "Apellido": "Torres",
-     "Matricula": "ABC123"
+     "Matricula": "7458692"
     },
     {"Nombre": "Bryan",
      "Apellido": "Castillo",
-     "Matricula": "ABC123"
+     "Matricula": "1285964"
     },
     {"Nombre": "Emiliano",
      "Apellido": "Rodriguez",
-     "Matricula": "ABC123"
+     "Matricula": "7412958"
     },
   
   ];

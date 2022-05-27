@@ -1,5 +1,6 @@
-import { NgModule } from '@angular/core';
+import { Component, NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { DetallesalumnoComponent } from '../detallesalumno/detallesalumno.component';
 import { Tab2Page } from './tab2.page';
 
 const routes: Routes = [

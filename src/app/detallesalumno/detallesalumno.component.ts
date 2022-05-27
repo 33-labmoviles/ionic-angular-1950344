@@ -1,15 +1,18 @@
 import { Component, OnInit } from '@angular/core';
+import { ActivatedRoute } from '@angular/router';
 
 @Component({
-  selector: 'app-alumnos',
-  templateUrl: './alumnos.component.html',
-  styleUrls: ['./alumnos.component.scss'],
+  selector: 'app-detallesalumno',
+  templateUrl: './detallesalumno.component.html',
+  styleUrls: ['./detallesalumno.component.scss'],
 })
-export class AlumnosComponent implements OnInit {
+export class DetallesalumnoComponent implements OnInit {
 
-  constructor() { }
+  constructor(private ruta: ActivatedRoute) { }
 
-  ngOnInit() {}
+  ngOnInit() {
+    this.obtenerdetalleAlumno(this.matricula);
+  }
 
   alumnos = [
 
@@ -75,6 +78,12 @@ export class AlumnosComponent implements OnInit {
     },
   
   ];
+  alumnoDetalle: any = {}
 
+  matricula: string = this.ruta.snapshot.params.id;
+  obtenerdetalleAlumno(matricula: string): any{
+    console.log(matricula);
+    return this.alumnoDetalle;
+  }
 
 }

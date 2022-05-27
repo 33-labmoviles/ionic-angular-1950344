@@ -1,3 +1,7 @@
-<p>
-  alumnos works!
-</p>
+<ion-list>
+<ion-item *ngFor = "let alumno of alumnos" routerlink="/detallesalumno">
+  <ion-img src = "assets/images/FCFM.png"> </ion-img>
+  <ion-label><strong>{{alumno.Nombre}}</strong></ion-label>
+</ion-item>
+
+</ion-list>
