@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "labappsmoviles": {
+      "hosting": {
+        "app": [
+          "labappsmoviles"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "labappsmoviles"
+  }
+}
